@@ -11,7 +11,7 @@ import RealityKit
 struct CelestialDisplayView: View {
     
     @State var celestialObjects = [CelestialObject(name: "Earth", size: 300, rotationSpeed: 5),
-                                   CelestialObject(name: "Moon", size: 150, rotationSpeed: 8),
+                                   CelestialObject(name: "Moon", size: 150, rotationSpeed: 20),
                                    CelestialObject(name: "Sun", size: 450, rotationSpeed: 3)]
     
     var body: some View {
