@@ -4,7 +4,7 @@ import RealityKit
 // PlanetRotationComponent.registerComponent()
 public struct PlanetRotationComponent: Component, Codable {
     // This is an example of adding a variable to the component.
-    public var Speed: Float = 0
+    public var speed: Float = 0
 
     public init() {
     }

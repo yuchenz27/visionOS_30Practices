@@ -70,7 +70,72 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
-        "Sun"
+        "Saturn"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Jupiter"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Cube",
+        "Orbit_Lines"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Earth",
+        "Earth_Model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Mars"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Mercury"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Neptune"
       ],
       {
         "isExpanded" : true,
@@ -79,6 +144,33 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Venus"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Sun"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Uranus"
       ],
       {
         "isExpanded" : true,

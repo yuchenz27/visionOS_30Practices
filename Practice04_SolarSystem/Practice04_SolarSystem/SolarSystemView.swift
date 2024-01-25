@@ -11,13 +11,39 @@ import RealityKitContent
 
 struct SolarSystemView: View {
     
-    @State private var rotateY: Double = 0
+    @Environment(ViewModel.self) private var viewModel
     
     var body: some View {
-        RealityView { content in
+        @Bindable var viewModel = viewModel
+        
+        RealityView { content, attachments in
             if let entity = try? await Entity(named: "SolarSystem", in: realityKitContentBundle) {
                 content.add(entity)
+                viewModel.rootEntity = entity
             }
+        } update: { content, attachments in
+            for planet in viewModel.planets {
+                if let attachmentEntity = attachments.entity(for: planet.name), let planetEntity = viewModel.rootEntity?.findEntity(named: planet.name) {
+                    attachmentEntity.position = [0, -0.15, 0]
+                    planetEntity.addChild(attachmentEntity)
+                }
+            }
+        } attachments: {
+            ForEach(viewModel.planets, id: \.self) { planet in
+                if let entity = viewModel.rootEntity?.findEntity(named: planet.name) {
+                    Attachment(id: entity.name) {
+                        Text(entity.name)
+                            .padding()
+                            .glassBackgroundEffect()
+                    }
+                }
+            }
+        }
+        .gesture(TapGesture().targetedToAnyEntity().onEnded { value in
+            print("Tapped \(value.entity.name)!")
+        })
+        .onDisappear {
+            viewModel.isShowingSolarSystem = false
         }
     }
 }
