@@ -70,7 +70,8 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
-        "Saturn"
+        "Cube",
+        "Orbit_Lines"
       ],
       {
         "isExpanded" : true,
@@ -79,7 +80,16 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
-        "Jupiter"
+        "Uranus"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Mars"
       ],
       {
         "isExpanded" : true,
@@ -97,8 +107,7 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
-        "Cube",
-        "Orbit_Lines"
+        "Jupiter"
       ],
       {
         "isExpanded" : true,
@@ -117,16 +126,7 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
-        "Mars"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
-        "Root",
-        "Mercury"
+        "Venus"
       ],
       {
         "isExpanded" : true,
@@ -143,6 +143,15 @@
       },
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
+        "Root",
+        "Mercury"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root"
       ],
       {
@@ -152,7 +161,7 @@
       [
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
-        "Venus"
+        "Saturn"
       ],
       {
         "isExpanded" : true,
@@ -162,15 +171,6 @@
         "B7D35503-307F-4850-9C50-C9463B8C2D8F",
         "Root",
         "Sun"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "B7D35503-307F-4850-9C50-C9463B8C2D8F",
-        "Root",
-        "Uranus"
       ],
       {
         "isExpanded" : true,
@@ -208,9 +208,7 @@
     "objectMetadataList" : [
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
-        "Root",
-        "GridMaterial",
-        "GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -218,7 +216,9 @@
       },
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
-        "Root"
+        "Root",
+        "GridMaterial",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,

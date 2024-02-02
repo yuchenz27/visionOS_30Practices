@@ -1,0 +1,22 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.60.6)"
+    }
+    defaultPrim = "ToyDrummer"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "ToyDrummer"
+{
+    def "Drummer" (
+        active = true
+        references = @Drummer.usdz@
+    )
+    {
+        float3 xformOp:scale = (3, 3, 3)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+
